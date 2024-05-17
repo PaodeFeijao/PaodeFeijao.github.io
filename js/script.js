@@ -45,7 +45,7 @@ var Game = {
 		this.canvas = document.querySelector('canvas');
 		this.context = this.canvas.getContext('2d');
 
-		this.canvas.width = 900;
+		this.canvas.width = 500;
 		this.canvas.height = 500;
 
 		this.canvas.style.width = (this.canvas.width / 2) + 'px';
