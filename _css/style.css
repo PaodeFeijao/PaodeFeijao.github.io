@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../_img/backgrounds/StoneBG.png);
+}
+
+.nav-bar{
+    display: flex;
+    background-image: url(../_img/backgrounds/DirtBG.gif);
+    height: 5vh;
+    justify-content: space-around;
+    border: black solid;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 136, 255);
+    margin-left: 32px;
+}
