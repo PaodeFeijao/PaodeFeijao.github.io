@@ -31,7 +31,7 @@ var Paddle = {
 		return {
 			width: 18,
 			height: 70,
-			x: side === 'left' ? 150 : this.canvas.width - 150,
+			x: side === 'left' ? 150 : this.canvas.width - 200,
 			y: (this.canvas.height / 2) - 35,
 			score: 0,
 			move: DIRECTION.IDLE,
