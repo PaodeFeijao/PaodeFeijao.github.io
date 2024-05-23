@@ -4,12 +4,12 @@
 }
 
 body {
-    background: url(../_img/backgrounds/StoneBG.png);
+    background: url(./_img/backgrounds/StoneBG.png);
 }
 
 .nav-bar{
     display: flex;
-    background-image: url(../_img/backgrounds/DirtBG.gif);
+    background-image: url(./_img/backgrounds/DirtBG.gif);
     height: 5vh;
     justify-content: space-around;
     border: black solid;
