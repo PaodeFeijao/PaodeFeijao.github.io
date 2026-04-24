@@ -1,21 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MinecraftConnect sfsaf</title>
-    <link rel="stylesheet" href="//:paodefeijao.github.io/_css/style.css">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfólio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #0d1117;
+      color: #e6edf3;
+      font-family: 'Inter', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /*justify-content: center; */
+    }
+
+    main{
+        display: flex;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.25rem;
+      padding: 2rem;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .thumb {
+      width: 300px;
+      height: 300px;
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 12px;
+      overflow: hidden;
+      transition: border-color 0.2s;
+    }
+
+    .card:hover .thumb { border-color: #58a6ff; }
+
+    .thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top;
+      display: block;
+    }
+
+    .thumb img {
+        transition: transform .5s ease;
+    }
+
+    .thumb:hover img {
+        transform: scale(1.25);
+    }
+
+    .name {
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: #8b949e;
+      text-align: center;
+      transition: color 0.15s;
+    }
+
+    .card:hover .name { color: #58a6ff; }
+
+    @media (max-width: 640px) {
+      .grid { grid-template-columns: 1fr; }
+      .thumb { width: 260px; height: 260px; }
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <nav class="nav-bar">
-            <ul class="nav-list">
-                <li><a href="#">Login</a></li>
-                <li><a href="#">Register</a></li>
-            </ul>
-        </nav>
-    </header>
-    <h1>Minecraft Connect</h1>
+    <h1 style="padding: 100px;">Gabriel Andrade - Página temporária</h1>
+<main>
+
+
+    <h2>Projetos</h1>
+  <div class="grid">
+    
+
+    <a class="card" href="./LandingPages/projeto-1/" target="_blank" rel="noopener">
+      <div class="thumb">
+        <img src="./LandingPages/projeto-1/preview.png" alt="Projeto 1">
+      </div>
+      <span class="name">Inglês Que Funciona</span>
+    </a>
+
+    <a class="card" href="./LandingPages/projeto-2/" target="_blank" rel="noopener">
+      <div class="thumb">
+        <img src="./LandingPages/projeto-2/preview.png" alt="Projeto 2"> 
+      </div>
+      <span class="name">Fitzone</span>
+    </a>
+
+  </div>
+  
+
 </body>
 </html>
