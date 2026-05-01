@@ -10,14 +10,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Lato:wght@300;400;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="icon" href="img/favicon.png" type="image/png">
     <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
 </head>
 <body>
 
-    <!-- ========== NAVBAR ========== -->
     <header class="navbar" id="navbar">
         <div class="container nav-wrap">
             <a href="#" class="logo">
-                <img src="img/Logo.png" alt="Logo Mibly Shop" class="nav-logo-img">
+                <img src="img/logo.png" alt="Logo Mibly Shop" class="nav-logo-img">
                 <span class="logo-name">mibly<strong>.shop</strong></span></a>
             <nav class="nav-links" id="navLinks">
                 <a href="#" class="active">Conheça</a>
@@ -32,14 +35,10 @@
         </div>
     </header>
 
-    <!-- ========== HERO ========== -->
     <section class="hero">
-        <!-- Diagonal orange shape -->
         <div class="hero-shape"></div>
-        <!-- Cyan floating rings -->
         <div class="hero-ring ring-1"></div>
         <div class="hero-ring ring-2"></div>
-        <!-- Small diamond -->
         <div class="hero-diamond"></div>
 
         <div class="container hero-grid">
@@ -53,13 +52,10 @@
             </div>
             <div class="hero-visual">
                 <div class="phones-wrap">
-
-                    <!-- Phone BACK: purple dashboard (AppVenture left phone) -->
                     <div class="phone-frame phone-back pf-dark">
                         <div class="phone-notch pn-dark"></div>
                         <img style="height: 100%;width: 100%;" src="img/Checkout.png" alt="">
                         <div style="display: none;" class="ps-dark">
-                            <!-- Top bar icon -->
                             <div class="ps-topbar">
                                 <svg width="22" height="18" viewBox="0 0 22 18" fill="none">
                                     <rect x="0" y="12" width="4" height="6" rx="1" fill="rgba(255,255,255,.5)"/>
@@ -68,10 +64,8 @@
                                     <rect x="18" y="0" width="4" height="18" rx="1" fill="#fff"/>
                                 </svg>
                             </div>
-                            <!-- Greeting -->
                             <div class="ps-greeting">Olá, Lojista</div>
                             <div class="ps-greet-sub">6 pedidos pendentes</div>
-                            <!-- Task Card -->
                             <div class="ps-task-card">
                                 <div class="ps-task-title">Design do Catálogo</div>
                                 <div class="ps-task-sub">Adicionar produtos</div>
@@ -80,7 +74,6 @@
                                     <div class="ps-avatar" style="background:#93c5fd; margin-left:-8px;"></div>
                                 </div>
                             </div>
-                            <!-- Monthly Review -->
                             <div class="ps-review-title">Resumo do Mês</div>
                             <div class="ps-stats-row">
                                 <div class="ps-stat-card">
@@ -92,7 +85,6 @@
                                     <div class="ps-stat-label">Em aberto</div>
                                 </div>
                             </div>
-                            <!-- Nav bar -->
                             <div class="ps-navbar">
                                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,.6)" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
                                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
@@ -102,46 +94,46 @@
                         </div>
                     </div>
 
-                    <!-- Phone FRONT: light onboarding screen (AppVenture right phone) -->
+                    
                     <div class="phone-frame phone-front pf-light">
                         <div class="phone-notch"></div>
                         <img style="height: 100%;width: 100%;" src="img/Loja.png">
-                        <!-- div invisivel - apagar em breve -->
+                        
                         <div style="display: none;" class="ps-light">
-                            <!-- Geometric Art -->
+                            
                             <div class="ps-art">
                                 <svg viewBox="0 0 260 200" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;">
-                                    <!-- Background rect -->
+                                    
                                     <rect width="260" height="200" fill="#e8eaf6"/>
-                                    <!-- Large circles -->
+                                    
                                     <circle cx="60" cy="80" r="48" fill="#3949ab" opacity=".85"/>
                                     <circle cx="170" cy="50" r="36" fill="#5c6bc0" opacity=".7"/>
                                     <circle cx="210" cy="130" r="30" fill="#90caf9" opacity=".8"/>
                                     <circle cx="100" cy="160" r="28" fill="#b0bec5" opacity=".5"/>
-                                    <!-- Half circles -->
+                                    
                                     <path d="M130 40 A40 40 0 0 1 210 40 Z" fill="#1a237e" opacity=".6"/>
                                     <path d="M30 150 A30 30 0 0 0 90 150 Z" fill="#5c6bc0" opacity=".4"/>
-                                    <!-- Wavy lines -->
+                                    
                                     <path d="M40 100 Q80 70 120 100 Q160 130 200 100 Q230 80 260 95" stroke="#3949ab" stroke-width="2.5" fill="none" opacity=".5"/>
                                     <path d="M40 115 Q80 85 120 115 Q160 145 200 115 Q230 95 260 110" stroke="#5c6bc0" stroke-width="2" fill="none" opacity=".4"/>
-                                    <!-- Small dots -->
+                                    
                                     <circle cx="150" cy="30" r="5" fill="#1a237e" opacity=".7"/>
                                     <circle cx="165" cy="20" r="4" fill="#3949ab" opacity=".5"/>
                                     <circle cx="140" cy="18" r="3" fill="#5c6bc0" opacity=".5"/>
                                     <circle cx="230" cy="80" r="6" fill="#1a237e" opacity=".4"/>
                                     <circle cx="245" cy="55" r="4" fill="#3949ab" opacity=".4"/>
-                                    <!-- Leaf shapes -->
+                                    
                                     <path d="M180 155 Q200 130 220 155 Q200 180 180 155Z" fill="#90caf9" opacity=".6"/>
                                     <path d="M55 45 Q75 20 95 45 Q75 70 55 45Z" fill="#7986cb" opacity=".5"/>
                                 </svg>
                             </div>
-                            <!-- Text content -->
+                            
                             <div class="ps-light-body">
                                 <div class="ps-light-title">Gerencie seu catálogo</div>
                                 <div class="ps-light-sub">Catálogo digital para bombar suas vendas na sua região</div>
                                 <a href="https://mibly.shop/comece" class="ps-light-btn">Começar</a>
                             </div>
-                            <!-- Nav dots -->
+                            
                             <div class="ps-dots">
                                 <span class="ps-dot active"></span>
                                 <span class="ps-dot"></span>
@@ -155,7 +147,7 @@
         </div>
     </section>
 
-    <!-- ========== BENEFITS (New Section) ========== -->
+    
     <section class="benefits-new" id="beneficios">
         <div class="container text-center">
             <div class="section-label">
@@ -184,13 +176,13 @@
                 </div>
                 <div class="ben-card">
                     <div class="ben-icon">📦</div>
-                    <h3>Logística integrada</h3>
-                    <p>Cálculo de frete e integração com transportadoras para entregas mais ágeis.</p>
+                    <h3>Gestão de Frete</h3>
+                    <p>Configure valores por bairros e regiões e ofereça entregas sob medida.</p>
                 </div>
                 <div class="ben-card">
-                    <div class="ben-icon">🤝</div>
-                    <h3>Melhor experiência ao cliente</h3>
-                    <p>Confirmação automática e rastreio de pedidos que aumentam a confiança.</p>
+                    <div class="ben-icon">🎨</div>
+                    <h3>Design e Navegação</h3>
+                    <p>Layout limpo e intuitivo: menus claros, categorias bem definidas e filtros eficientes.</p>
                 </div>
                 <div class="ben-card">
                     <div class="ben-icon">🔒</div>
@@ -201,7 +193,7 @@
         </div>
     </section>
 
-    <!-- ========== PAIN POINTS (Antes / Depois) ========== -->
+    
     <section class="pain-points-section">
         <div class="container text-center">
             <div class="section-label">
@@ -213,7 +205,7 @@
             <h2 class="section-heading">Sinta a Diferença</h2>
             
             <div class="pain-grid">
-                <!-- ANTES -->
+                
                 <div class="pain-card antes">
                     <div class="pain-header">
                         <h3>Antes</h3>
@@ -243,7 +235,7 @@
                     </ul>
                 </div>
 
-                <!-- DEPOIS -->
+                
                 <div class="pain-card depois">
                     <div class="pain-header">
                         <h3>Depois</h3>
@@ -276,7 +268,7 @@
         </div>
     </section>
 
-    <!-- ========== DEMO STORE ========== -->
+    
     <section class="demo-section" id="demonstracao">
         <div class="container text-center">
             <div class="watermark-text">Na Prática</div>
@@ -300,7 +292,7 @@
         </div>
     </section>
 
-    <!-- ========== HOW IT WORKS ========== -->
+    
     <section class="how-section" id="how">
         <div class="container text-center">
             <div class="section-label">
@@ -336,7 +328,7 @@
         </div>
     </section>
 
-    <!-- ========== BENEFITS / SPECS GRID ========== -->
+    
     <section class="benefits-section" id="benefits">
         <div class="container text-center">
             <div class="section-label">
@@ -347,7 +339,7 @@
             <div class="watermark-text">Integrações</div>
             <h2 class="section-heading">Funcionalidades Extras</h2>
             <div class="specs-grid">
-                <!-- 21 items -->
+                
                 <div class="spec-card"><div class="spec-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></div><span>Banner Promocional</span></div>
                 <div class="spec-card"><div class="spec-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></div><span>Cadastre Produtos Ilimitados</span></div>
                 <div class="spec-card"><div class="spec-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></div><span>Link o INSTAGRAM da sua loja</span></div>
@@ -371,7 +363,7 @@
                 <div class="spec-card"><div class="spec-icon"><svg viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></div><span>Cadastre Formas de entrega</span></div>
             </div>
         </div>
-        <!-- SVG Gradient Definitions -->
+        
         <svg width="0" height="0" style="position:absolute">
             <defs>
                 <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -388,8 +380,8 @@
 
 
 
-    <!-- ========== PRICING ========== -->
-    <!-- TODO: Aguardando informações dos planos amanhã (Modelo 3 níveis, destaque de economia, plano entrada) -->
+    
+    
     <section class="pricing-section" id="pricing">
         <div class="container text-center">
             <div class="section-label">
@@ -400,7 +392,7 @@
             <div class="watermark-text">Preço Justo</div>
             <h2 class="section-heading">Planos Acessíveis</h2>
             <div class="pricing-grid">
-                <!-- BÁSICO -->
+                
                 <div class="price-card">
                     <h4>Básico</h4>
                     <p class="price-sub">Ideal para quem está começando.</p>
@@ -409,7 +401,7 @@
                     <a href="https://mibly.shop/comece/cadastrar/" class="btn-price">Teste grátis por 14 dias!</a>
                 </div>
 
-                <!-- AVANÇADO -->
+                
                 <div class="price-card">
                     <h4>Avançado</h4>
                     <p class="price-sub">Para negócios em crescimento.</p>
@@ -418,7 +410,7 @@
                     <a href="https://mibly.shop/comece/cadastrar/" class="btn-price">Teste grátis por 14 dias!</a>
                 </div>
 
-                <!-- PREMIUM -->
+                
                 <div class="price-card featured">
                     <div class="price-badge">Mais Escolhido</div>
                     <h4>Premium</h4>
@@ -466,18 +458,24 @@
 
 
 
-    <!-- ========== FOOTER ========== -->
-    <!-- TODO: Aguardando informações de rodapé amanhã (Links institucionais, redes sociais, logo, favicon, contato) -->
+    
+    
     <footer class="footer">
         <div class="container footer-grid">
             <div class="footer-brand">
-                <a href="#" class="logo" style="margin-bottom: 20px;">
-                    <img src="img/Logo2.png" alt="Logo Mibly Shop" class="nav-logo-img">
+                <a href="#" class="logo" style="margin-bottom: 16px;">
+                    <img src="img/logo2.png" alt="Logo Mibly Shop" class="nav-logo-img">
                 </a>
-                <p>Solução robusta para comércio eletrônico. Oferecemos catálogo online intuitivo, pagamentos integrados (PIX e cartão), gestão de pedidos e recursos de envio — tudo sem necessidade de desenvolvimento. Priorizamos segurança e conformidade, com monitoramento, backups e suporte técnico dedicado. Teste a loja em ambiente realista e comece a vender rapidamente com relatórios e métricas para orientar suas decisões.</p>
+                <p>Catálogo intuitivo, pagamentos integrados e gestão de pedidos. Sem programar. Comece a vender hoje.</p>
                 <div class="security-seals">
-                    <img src="https://img.shields.io/badge/Segurança-SSL_Certificado-success?style=for-the-badge&logo=letsencrypt&logoColor=white" alt="Certificado SSL Seguro">
-                    <img src="https://img.shields.io/badge/Google-Safe_Browsing-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Safe Browsing">
+                    <span class="seal-badge">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        SSL Seguro
+                    </span>
+                    <span class="seal-badge">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                        Google Safe
+                    </span>
                 </div>
             </div>
             
@@ -491,15 +489,14 @@
             <div class="footer-links">
                 <h4>Contato</h4>
                 <a href="#">WhatsApp: (21) 97926-3872</a>
-                <!-- <a href="#">E-mail: contato@mibly.shop</a> -->
-                <!-- <a href="#">Endereço: Rua Exemplo, 123</a> -->
+                
+                
             </div>
 
             <div class="footer-links">
                 <h4>Redes Sociais</h4>
                 <a href="https://www.instagram.com/fabio_feques/">Instagram</a>
-                <!-- <a href="#">Facebook</a>
-                <a href="#">TikTok</a> -->
+                
             </div>
         </div>
         <div class="footer-bottom">
@@ -509,7 +506,7 @@
         </div>
     </footer>
 
-    <!-- ========== WHATSAPP FLOAT ========== -->
+    
     <a href="https://wa.me/5521979263872" class="whatsapp-float" aria-label="WhatsApp">
         <svg viewBox="0 0 32 32" fill="#fff"><path d="M16 3C9.37 3 4 8.37 4 15c0 2.12.56 4.12 1.53 5.85L4 29l8.38-1.47A12.94 12.94 0 0 0 16 28c6.63 0 12-5.37 12-12S22.63 3 16 3zm6.44 17.27c-.27.76-1.6 1.46-2.2 1.55-.56.08-1.27.12-2.05-.13a18.72 18.72 0 0 1-1.86-.69c-3.27-1.41-5.4-4.72-5.56-4.94-.16-.22-1.32-1.76-1.32-3.36s.84-2.38 1.13-2.71c.3-.33.65-.41.87-.41h.63c.2 0 .47-.08.73.56.27.65.93 2.27 1.01 2.44.08.16.14.36.03.57-.11.22-.16.36-.33.55-.16.19-.34.42-.49.57-.16.16-.33.33-.14.65.19.33.84 1.38 1.8 2.24 1.24 1.1 2.28 1.44 2.6 1.6.33.16.52.14.71-.08.19-.22.84-.98 1.06-1.32.22-.33.44-.27.76-.16.33.11 2.05.97 2.4 1.14.35.17.58.25.67.39.08.14.08.82-.19 1.58z"/></svg>
     </a>

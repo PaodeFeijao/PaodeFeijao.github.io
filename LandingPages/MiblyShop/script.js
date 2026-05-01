@@ -1,25 +1,21 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // ===== Sticky Navbar =====
     const navbar = document.getElementById('navbar');
     window.addEventListener('scroll', () => {
         navbar.classList.toggle('scrolled', window.scrollY > 60);
     });
-
-    // ===== Mobile Menu Toggle =====
     const toggle = document.getElementById('navToggle');
     const links = document.getElementById('navLinks');
-    
+
     if (toggle && links) {
         toggle.addEventListener('click', () => {
             links.classList.toggle('open');
         });
-        // Close menu on link click
         links.querySelectorAll('a').forEach(a => {
             a.addEventListener('click', () => links.classList.remove('open'));
         });
     }
 
-    // ===== Scroll Reveal Animation =====
+
     const revealEls = document.querySelectorAll(
         '.how-card, .spec-card, .feat-row, .faq-card, .price-card, .team-card, .testi-card, .gallery-phone, .wm-block, .useful-block'
     );
@@ -37,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     revealEls.forEach(el => observer.observe(el));
 
-    // ===== Demo Dropdown =====
+
     const demoSelect = document.getElementById('demoSelect');
     const demoGo = document.getElementById('demoGo');
     if (demoSelect && demoGo) {
@@ -49,9 +45,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // ===== Smooth Scroll for Nav Links =====
+
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
+        anchor.addEventListener('click', function (e) {
             const target = document.querySelector(this.getAttribute('href'));
             if (target) {
                 e.preventDefault();
